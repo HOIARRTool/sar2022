@@ -403,8 +403,6 @@ def generate_sar_section(api_key, sar_item, context_data):
 
 # ===================== UI =====================
 
-st.markdown("เครื่องมือช่วยสร้างรายงานประเมินตนเองตามมาตรฐาน HA ฉบับที่ 5 โปรดพิจารณาผลลัพธ์และปรับปรุงตามบริบทของโรงพยาบาล")
-st.markdown("---")
 
 # --- API Key ---
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
@@ -479,7 +477,9 @@ with st.sidebar:
 
 # --- Output ---
 st.header("2. ผลลัพธ์ (AI-Generated SAR)")
-
+st.markdown("---")
+st.markdown("เครื่องมือช่วยสร้างรายงานประเมินตนเองตามมาตรฐาน HA ฉบับที่ 5 โปรดพิจารณาผลลัพธ์และปรับปรุงตามบริบทของโรงพยาบาล")
+st.markdown("---")
 if "report_output" not in st.session_state:
     st.session_state.report_output = ""
 
