@@ -45,6 +45,43 @@ st.markdown(
 # ==========================================================
 # <<< END: โค้ดที่เพิ่มเข้ามาสำหรับปรับความกว้าง Sidebar >>>
 # ==========================================================
+# ==============================================================================
+# PAGE CONFIGURATION
+# ==============================================================================
+LOGO_URL = "https://raw.githubusercontent.com/HOIARRTool/hoiarr/refs/heads/main/logo1.png"
+st.set_page_config(page_title="HOIA-RR", page_icon=LOGO_URL, layout="wide")
+
+# URLs ของโลโก้ทั้ง 4
+logo_urls = [
+    "https://github.com/HOIARRTool/appqtbi/blob/main/messageImage_1763018987241.jpg?raw=true",
+    "https://github.com/HOIARRTool/appqtbi/blob/main/messageImage_1763018963411.jpg?raw=true",    
+    "https://mfu.ac.th/fileadmin/_processed_/6/7/csm_logo_mfu_3d_colour_15e5a7a50f.png",
+    "https://github.com/HOIARRTool/appqtbi/blob/main/logoSHS.png?raw=true"
+]
+st.set_page_config(page_title="HOIA-RR", page_icon=LOGO_URL, layout="wide")
+
+st.markdown(
+    """
+    <div style="
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-start;
+        gap: 12px;
+        padding: 8px 24px 0 0;
+    ">
+        <img src="https://github.com/HOIARRTool/appqtbi/blob/main/messageImage_1763018987241.jpg?raw=true" style="height:60px;">
+        <img src="https://github.com/HOIARRTool/appqtbi/blob/main/messageImage_1763018963411.jpg?raw=true" 
+            style="height:75px; margin-top:-4px;">
+        <img src="https://mfu.ac.th/fileadmin/_processed_/6/7/csm_logo_mfu_3d_colour_15e5a7a50f.png"
+             style="height:70px; margin-top:-1px;">
+        <!-- ขยับโลโก้ SHS ลงมานิดหน่อยด้วย margin-top -->
+        <img src="https://github.com/HOIARRTool/appqtbi/blob/main/logoSHS.png?raw=true"
+             style="height:45px; margin-top:12px;">
+    </div>
+    """,
+    unsafe_allow_html=True
+)
 
 
 # --- Hardcoded Knowledge Base & SAR Items ---
