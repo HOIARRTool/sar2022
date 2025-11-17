@@ -27,7 +27,6 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"
 )
-st.caption("Build tag: uploader-xls-pptx-v1")
 
 # ==========================================================
 # <<< START: โค้ดที่เพิ่มเข้ามาสำหรับปรับความกว้าง Sidebar >>>
