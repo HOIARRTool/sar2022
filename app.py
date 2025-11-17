@@ -48,7 +48,7 @@ st.markdown(
 # PAGE CONFIGURATION
 # ==============================================================================
 LOGO_URL = "https://raw.githubusercontent.com/HOIARRTool/hoiarr/refs/heads/main/logo1.png"
-st.set_page_config(page_title="HOIA-RR", page_icon=LOGO_URL, layout="wide")
+st.set_page_config(page_title="SAR2022", page_icon=LOGO_URL, layout="wide")
 
 # URLs ของโลโก้ทั้ง 4
 logo_urls = [
