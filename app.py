@@ -57,7 +57,7 @@ logo_urls = [
     "https://mfu.ac.th/fileadmin/_processed_/6/7/csm_logo_mfu_3d_colour_15e5a7a50f.png",
     "https://github.com/HOIARRTool/appqtbi/blob/main/logoSHS.png?raw=true"
 ]
-st.set_page_config(page_title="HOIA-RR", page_icon=LOGO_URL, layout="wide")
+st.set_page_config(page_title="SAR2022", page_icon=LOGO_URL, layout="wide")
 
 st.markdown(
     """
